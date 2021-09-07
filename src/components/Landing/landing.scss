@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,600;1,700&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: url("../../assets/background.jpg") no-repeat center;
+  background-size: cover;
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    background: -webkit-linear-gradient(#fcf3cf, #cd6155);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .btn-grad {
+    background-image: linear-gradient(
+      to right,
+      #cd6155 0%,
+      #79cbca 51%,
+      #cd6155 100%
+    );
+  }
+  .btn-grad {
+    margin: 10px;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    font-family: "Urbanist";
+    color: #fcf3cf;
+    border-radius: 30px;
+    display: block;
+    border: none;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+}
