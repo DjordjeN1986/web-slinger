@@ -1,0 +1,54 @@
+body {
+  background: #000000; /* fallback for old browsers */
+  background: linear-gradient(to right, #000000, #434343);
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  transition: 0.5s ease-out;
+
+  @keyframes border {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  &:after {
+    content: "";
+    margin: auto;
+    margin-top: 5px;
+    height: 1px;
+    width: 0px;
+    background: whitesmoke;
+    -webkit-animation-name: border; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: border;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  h3 {
+    color: #fcf3cf;
+  }
+}
+
+.project-cards {
+  margin-top: 30px;
+  display: flex;
+}

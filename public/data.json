@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "title": "ToDo react app",
+      "author": "Djordje Nikolic",
+      "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg",
+      "id": 5,
+      "url": "https://djordjen1986.github.io/todo_react/",
+      "stack": "ReactJS, SCSS, Axios"
+    },
+    {
+      "title": "Project 1",
+      "author": "Mario",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a9/MarioNSMBUDeluxe.png",
+      "id": 1
+    },
+    {
+      "title": "Project 2",
+      "author": "Luigi",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/73/Luigi_NSMBUDX.png",
+
+      "id": 2
+    },
+    {
+      "title": "Project 3",
+      "author": "Bowser",
+            "image": "https://upload.wikimedia.org/wikipedia/en/9/92/Bowser_Stock_Art_2021.png",
+
+      "id": 3
+    },
+    {
+      "title": "I'm a noob",
+      "author": "Bruce Wayne/Batman",
+            "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/Batman_Infobox.jpg",
+      
+      "id": 4
+    }
+  ]
+}
+

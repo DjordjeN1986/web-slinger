@@ -5,28 +5,48 @@
   border-bottom: 1px solid white;
   background: #000000; /* fallback for old browsers */
   background: linear-gradient(to right, #000000, #434343);
+}
+.home-link {
+  text-decoration: none;
+  margin-left: 50px;
+  font-size: 30px;
+  color: #fcf3cf;
+  transition: 0.5s ease-out;
+  padding: 10px;
+  border-radius: 30px;
 
-  h1 {
-    margin: 0;
-    margin-left: 50px;
-    background: -webkit-linear-gradient(#fcf3cf, #cd6155);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  &:hover {
+    background-color: whitesmoke;
+    color: #cd6155;
+    transform: all 0.5s ease;
+    border-radius: 30px;
   }
 }
 
 .links {
   display: flex;
   margin-left: auto;
+  justify-content: space-between;
+  width: 200px;
+  margin-right: 50px;
 
-  li {
-    list-style: none;
+  .text-link {
     margin: 10px;
     transition: 0.5s ease-out;
     padding: 5px;
-    background: -webkit-linear-gradient(#fcf3cf, #cd6155);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #fcf3cf;
     cursor: pointer;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 15px;
+    transform: all 0.3s ease-out;
+
+    &:hover {
+      color: #cd6155;
+      background-color: whitesmoke;
+      transform: all 0.3s ease;
+      border-radius: 15px;
+      padding: 5px;
+    }
   }
 }
