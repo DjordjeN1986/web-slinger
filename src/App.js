@@ -8,7 +8,7 @@ import ProjectPage from "./Pages/ProjectPage/ProjectPage";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={Landing} />
           <Route exact path="/home" component={Home} />
