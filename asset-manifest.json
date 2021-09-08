@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/web-slinger/static/css/main.babe544b.chunk.css",
+    "main.js": "/web-slinger/static/js/main.82b746a9.chunk.js",
+    "main.js.map": "/web-slinger/static/js/main.82b746a9.chunk.js.map",
+    "runtime-main.js": "/web-slinger/static/js/runtime-main.4f6e3d6d.js",
+    "runtime-main.js.map": "/web-slinger/static/js/runtime-main.4f6e3d6d.js.map",
+    "static/js/2.a05c6246.chunk.js": "/web-slinger/static/js/2.a05c6246.chunk.js",
+    "static/js/2.a05c6246.chunk.js.map": "/web-slinger/static/js/2.a05c6246.chunk.js.map",
+    "static/js/3.d920ff11.chunk.js": "/web-slinger/static/js/3.d920ff11.chunk.js",
+    "static/js/3.d920ff11.chunk.js.map": "/web-slinger/static/js/3.d920ff11.chunk.js.map",
+    "index.html": "/web-slinger/index.html",
+    "static/css/main.babe544b.chunk.css.map": "/web-slinger/static/css/main.babe544b.chunk.css.map",
+    "static/js/2.a05c6246.chunk.js.LICENSE.txt": "/web-slinger/static/js/2.a05c6246.chunk.js.LICENSE.txt",
+    "static/media/landing.scss": "/web-slinger/static/media/background.707a668d.jpg",
+    "static/media/laptop.51f28f46.jpg": "/web-slinger/static/media/laptop.51f28f46.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f6e3d6d.js",
+    "static/js/2.a05c6246.chunk.js",
+    "static/css/main.babe544b.chunk.css",
+    "static/js/main.82b746a9.chunk.js"
+  ]
+}
